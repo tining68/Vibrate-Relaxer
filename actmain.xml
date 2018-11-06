@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">"
+    <TextView
+        android:text="歡迎使用舒壓小物"
+        android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnShortV"
+        android:text="短震動"
+        android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnShortCV"
+        android:text="連續短震動"
+        android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnLongV"
+        android:text="長震動"
+        android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/btnLongShortV"
+        android:text="三長二短震動"
+        android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+</LinearLayout>
